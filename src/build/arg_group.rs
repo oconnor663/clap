@@ -562,10 +562,7 @@ mod test {
              \trequires: {:?},\n\
              \tconflicts: {:?},\n\
              }}",
-            args,
-            true,
-            reqs,
-            confs
+            args, true, reqs, confs
         );
         assert_eq!(&*format!("{:?}", g), &*debug_str);
     }
